@@ -2,6 +2,16 @@
 
 A beautiful, feature-rich music player built with HTML, CSS, and JavaScript. This player supports multiple songs, playlist management, shuffle, repeat modes, volume control, and **local file uploads**.
 
+
+🌐 **Live Demo:** [https://iinteractive-clock.netlify.app/](https://iinteractive-clock.netlify.app/)
+
+---
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/762980c9-7197-44f3-a094-f525fdf29937)
+
+---
 ## ✨ Features
 
 - **Multiple Songs Support**: Play through a playlist of songs
@@ -178,3 +188,9 @@ A beautiful, interactive real-time clock for your browser. Features both digital
 ---
 
 Enjoy your new interactive clock! ⏰✨ 
+
+
+## 👨‍💻 Author
+Sandeep Singh Mehta
+
+Contributions and suggestions are welcome! Feel free to open issues or submit pull requests.
