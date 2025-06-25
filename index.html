@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Clock</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="clock-container">
+    <div class="clock-header">
+      <h1>Interactive Clock</h1>
+      <div class="controls">
+        <button id="toggleTheme" class="control-btn">
+          <i class="fas fa-moon"></i>
+          <span>Dark Mode</span>
+        </button>
+        <button id="setBackground" class="control-btn">
+          <i class="fas fa-desktop"></i>
+          <span>Download Image</span>
+        </button>
+      </div>
+    </div>
+    
+    <div class="clock-display">
+      <div class="time-section">
+        <div class="time" id="clock">00:00:00</div>
+        <div class="date" id="date">January 1, 2024</div>
+      </div>
+      
+      <div class="clock-face">
+        <div class="clock-circle">
+          <div class="hand hour-hand" id="hourHand"></div>
+          <div class="hand minute-hand" id="minuteHand"></div>
+          <div class="hand second-hand" id="secondHand"></div>
+          <div class="center-dot"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="clock-info">
+      <div class="info-card">
+        <i class="fas fa-calendar"></i>
+        <span id="dayOfWeek">Monday</span>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-clock"></i>
+        <span id="timezone">Local Time</span>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-sun"></i>
+        <span id="period">AM</span>
+      </div>
+    </div>
+    
+    <div class="background-options">
+      <h3>Background Options</h3>
+      <div class="bg-buttons">
+        <button class="bg-btn" data-bg="gradient">Gradient</button>
+        <button class="bg-btn" data-bg="particles">Particles</button>
+        <button class="bg-btn" data-bg="waves">Waves</button>
+        <button class="bg-btn" data-bg="minimal">Minimal</button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="particles"></div>
+  <div id="waves"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
